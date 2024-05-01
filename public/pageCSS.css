@@ -1,136 +1,144 @@
-.header-Classe {
-    position: fixed;
-    width: 100%;
+
+
+
+body
+{
+    overflow-x: hidden;
+}
+
+.header
+{
+    position: fixed; 
+    width: 100%; 
     top: 0;
 }
 
-.nav-Classe {
+.container
+{
     margin: auto;
 }
 
-.Logo {
-    width: 30%;
-    height: 5%;
+.navbar-brand img 
+{
+    width:30%; 
+    height: 5%; 
     margin: 2px;
 }
 
-.user {
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
-}
-
-.icon-drop {
+.navbar-toggler
+{ 
     margin-left: 100px;
 }
 
-.size-nav {
-    padding-left: 35px;
-    margin-top: 70px;
-    padding-top: 2px;
+.dropdown-toggle img 
+{
+    width: 40px; 
+    height: 40px; 
+    border-radius: 100%;
+}
+
+.navbar
+{
+    z-index: relative;
+    padding-left: 35px; 
+    margin-top: 70px; 
+    padding-top: 2px; 
     background: rgb(41, 98, 255);
 }
 
-.text-p {
+.navbar-nav
+{
     text-align: center;
 }
 
-.link-tableau {
-    color: rgb(255, 255, 255);
-}
-
-.link-nav {
+.navbar-nav li a
+{
     color: rgb(199, 200, 200);
 }
 
-.div-width {
-    width: auto;
-}
-
-.div-1 {
-    justify-content: space-around;
-    align-items: center;
-    height: 100px;
-}
-
-.div-2 {
-    margin-left: 75px;
-    padding: 12px 0px;
-    width: 320px;
-    color: rgb(109, 109, 109);
-    border-left: 3px solid red;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-
-.div-3 {
-    padding: 12px 0px;
-    width: 320px;
-    color: rgb(109, 109, 109);
-}
-
-.div-4 {
-    margin-right: 75px;
-    padding: 12px 0px;
-    width: 320px;
-    color: rgb(109, 109, 109);
-}
-
-.div-container {
-    padding: 15px 0px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.div-5 {
-    margin-top: 20px;
-    padding-bottom: 30px;
-}
-
-.div-6 {
-    padding: 10px 10px;
-    width: 900px;
-    margin: auto;
-}
-
-.div-7 {
-    background: rgb(216, 216, 216);
-    font-size: 15px;
-    font-weight: bolder;
-}
-
-.div-8 {
-    padding: 13px 8px;
-}
-
-.div-9 {
-    text-decoration: none;
-}
-
-.nav-table {
+.navbar2 
+{
     margin-left: 635px;
 }
 
-.footer {
-    background-color: rgb(64, 79, 104);
+.dropdown-menu
+{
+    background-color: rgb(64, 79, 104); 
     padding: 2px;
 }
 
-.div-body1 {
-    background: rgb(255, 255, 255);
+.form-control
+{
+    margin-left: 75px; 
+    padding: 12px 0px; 
+    width:320px; 
+    color: rgb(109, 109, 109); 
+    border-left: 3px solid red; 
+    border-bottom-left-radius: 5px; 
+    border-top-left-radius: 5px;
 }
 
-.div-body2 {
-    width: auto;
+.divClass1
+{
+    padding: 12px 0px; 
+    width: 320px; 
+    color: rgb(109, 109, 109);
 }
 
-.div-body3 {
-    display: flex;
-    padding: 20px 0px;
-    background: rgb(198, 198, 198);
+.divClass2
+{
+    margin-right: 75px; 
+    padding: 12px 0px; 
+    width: 320px; 
+    color: rgb(109, 109, 109);
 }
 
-.div-body4 {
-    display: flex;
+.divAdmin
+{
+    display: flex; 
     margin: 20px 0px;
+}
+
+.divBreakClass1
+{
+    padding: 15px 0px; 
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.divBreakClass2
+{
+    margin-top: 20px; 
+    padding-bottom: 30px;
+}
+
+.divBreakClass3 
+{
+    padding: 10px 10px; 
+    width: 900px; 
+    margin: auto;
+}
+
+.divBreakClass4
+{
+    background: rgb(216, 216, 216); 
+    font-size: 15px; 
+    font-weight: bolder;
+}
+
+.divBreakClass5
+{
+    padding: 13px 8px;
+}
+
+.divBreakClass6
+{
+    text-decoration: none;
+}
+
+.divClass
+{
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100px;
 }
