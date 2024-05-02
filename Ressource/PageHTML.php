@@ -104,7 +104,7 @@
                                 <div  class=" affiche center row bg-light">
                                     <div class="col-4"><strong>Listes des adminstrateurs</strong></div>
                                     <div class="col-4"><strong>Nombre d'administrateurs 4</strong></div>
-                                    <div class="col-4 text-end"><a href="PageHTMLFormulaire.html" class="btn btn-outline-primary me-3"><span class="p-2">Ajouter un administrateur</span></a></div>
+                                    <div class="col-4 text-end"><a href="PageHTMLFormulaire.php" class="btn btn-outline-primary me-3"><span class="p-2">Ajouter un administrateur</span></a></div>
                                 </div>
                             </div>
 
