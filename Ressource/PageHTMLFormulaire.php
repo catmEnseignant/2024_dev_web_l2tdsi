@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
         <!-- <link rel="stylesheet" href="PageCSS.css"> -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/style.css">
         <title>SOLOQUIZZ</title>
     </head>
     <body>
@@ -107,7 +107,7 @@
                                     </div>
                                 </div>
     
-                                <form method="post" action="PageHTML.php" class="col-12">
+                                <form method="post" action="PageHTML.html" class="col-12">
                                     <div class="row mt-3 mt-md-0">
                                         <div class="col-6 mb-3">
                                             <input type="text" class="form-control" id="prenom" placeholder="Prénom">
@@ -132,7 +132,9 @@
                                             <input type="file" accept="image/*" class="form-control" id="nom" placeholder="Aucun fichier choisi">
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary w-100 text-center">Enregistrer</button>
+                                    <div>
+                                        <a href="PageHTML.html"  class="btn btn-primary w-100 text-center" ><span>Enregistrer</span></a>
+                                    </div>
                                 </form>
                             </div>
 
