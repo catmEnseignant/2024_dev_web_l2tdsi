@@ -1,0 +1,156 @@
+.headerclasse {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    width: 30%;
+    height: 5%;
+    margin: 2px;
+}
+
+.icone {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.nav-toggler {
+    margin-left: 100px;
+}
+
+.nav {
+    padding-left: 35px;
+    margin-top: 70px;
+    padding-top: 2px;
+    background: rgb(41, 98, 255);
+}
+
+.tab-bord {
+    color: rgb(255, 255, 255);
+}
+
+.param {
+    color: rgb(199, 200, 200);
+}
+
+.certi {
+    color: rgb(199, 200, 200);
+}
+
+.parametre {
+    color: rgb(199, 200, 200);
+}
+
+.classe {
+    color: rgb(199, 200, 200);
+}
+
+.div {
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.etudiant {
+    margin-left: 75px;
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+    border-left: 3px solid red;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.certification {
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+}
+
+.class {
+    margin-right: 75px;
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+}
+
+.nav2 {
+    background: rgb(216, 216, 216);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.ol {
+    padding: 13px 8px;
+}
+
+.accueil {
+    text-decoration: none;
+}
+
+.admin {
+    text-decoration: none;
+}
+
+.affiche {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.footer {
+    background-color: rgb(64, 79, 104);
+    padding: 2px
+}
+.img{
+    width:30%; height: 5%; margin: 2px;
+}
+.img2{
+    width: 40px; height: 40px; border-radius: 100%;
+}
+.back{
+    background: rgb(255, 255, 255);
+}
+.nav-style{
+    padding-left: 35px; margin-top: 70px; padding-top: 2px; background: rgb(41, 98, 255);
+}
+.ul{
+    text-align: center;
+}
+.tab{
+    color: rgb(255, 255, 255);
+}
+.par{
+    color: rgb(199, 200, 200);
+}
+.cer{
+    color: rgb(199, 200, 200);
+}
+.paramet{
+    color: rgb(199, 200, 200);
+}
+.classes{
+    color: rgb(199, 200, 200);
+}
+.liste{
+    display: flex; padding: 20px 0px; background: rgb(198, 198, 198);
+}
+.div4{
+    padding: 10px 10px; width: 900px; margin: auto;
+}
+.div5{
+    margin-right: 75px; padding: 12px 0px; width: 320px; color: rgb(109, 109, 109);
+}
+.cer2{
+    padding: 12px 0px; width: 320px; color: rgb(109, 109, 109);
+}
+.etu{
+    margin-left: 75px; padding: 12px 0px; width:320px; color: rgb(109, 109, 109); border-left: 3px solid red; border-bottom-left-radius: 5px; border-top-left-radius: 5px;
+}
+.div6{
+    padding: 15px 0px; margin-top: 50px; margin-bottom: 50px;
+}
+.div7{
+    margin-top: 20px; padding-bottom: 30px;
+}
