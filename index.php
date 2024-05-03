@@ -1,3 +1,3 @@
 <?php
-    header("Location: ressources/PageHTML.php");
+header("Location : ressources/PageHTML.php");
 ?>
