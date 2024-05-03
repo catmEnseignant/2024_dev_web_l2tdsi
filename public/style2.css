@@ -1,0 +1,119 @@
+body {
+    overflow-x: hidden;
+}
+
+.headerClass {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.controwClass {
+    margin: auto;
+}
+
+.imgsolo {
+    width: 30%;
+    height: 5%;
+    margin: 2px;
+}
+
+.divCl1 {
+    margin-left: 100px;
+}
+
+.imguser {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.navexp {
+    z-index: relative;
+    padding-left: 35px;
+    margin-top: 70px;
+    padding-top: 2px;
+    background: rgb(41, 98, 255);
+}
+
+.navlien {
+    text-align: center;
+}
+
+.navlink {
+    color: rgb(199, 200, 200);
+}
+
+.divshadow {
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.navClass2 {
+    margin-left: 635px;
+}
+
+.divshadow1 {
+    margin-left: 75px;
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+    border-left: 3px solid red;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.divshadow2 {
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+}
+
+.divshadow3 {
+    margin-right: 75px;
+    padding: 12px 0px;
+    width: 320px;
+    color: rgb(109, 109, 109);
+}
+
+.divbreak {
+    padding: 15px 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.divbreak1 {
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.divbreak2 {
+    padding: 10px 10px;
+    width: 900px;
+    margin: auto;
+}
+
+.divbreak3 {
+    background: rgb(216, 216, 216);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.divbreak4 {
+    padding: 13px 8px;
+}
+
+.divbreak5 {
+    text-decoration: none;
+}
+
+.divadmin {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.divfooter {
+    background-color: rgb(64, 79, 104);
+    padding: 2px;
+}
