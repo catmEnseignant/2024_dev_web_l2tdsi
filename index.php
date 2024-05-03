@@ -1,3 +1,3 @@
 <?php
-header( "Location: ressourses/index.php")
+header( "Location: ressourses/index.php");
 ?>
