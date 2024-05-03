@@ -12,7 +12,7 @@
             <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark fixed">
                 <div class="container row px-1 containerClass">
                     <div class="col">
-                        <a class="navbar-brand" href="#"><img class="imgClass1" src=":/C:\Users\pc\AppData\Local\Temp\Rar$DIa8348.38827\Soloquizz.png"></a>
+                        <a class="navbar-brand" href="#"><img class="imgClass1" src="../C:\Users\pc\AppData\Local\Temp\Rar$DIa8348.38827\Soloquizz.png"></a>
                     </div>
                     <div class="col divClass1">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <button class="px-3 btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img class="imgClass2" src=":/C:\Users\pc\AppData\Local\Temp\Rar$DIa10516.32531\user.png">
+                                        <img class="imgClass2" src="../C:\Users\pc\AppData\Local\Temp\Rar$DIa10516.32531\user.png">
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-info">
                                         <li>

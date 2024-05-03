@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <link rel="stylesheet" href=../public/PageCSS2.css">
+        <link rel="stylesheet" href="../public/PageCSS2.css">
         <title>SOLOQUIZZ</title>
     </head>
     <body>
@@ -12,7 +12,7 @@
             <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark fixed">
                 <div class="container row px-1 containerClass">
                     <div class="col">
-                        <a class="navbar-brand" href="#"><img class="imgClass1" src="Soloquizz.png"></a>
+                        <a class="navbar-brand" href="#"><img class="imgClass1" src="../C:\Users\pc\AppData\Local\Temp\Rar$DIa8348.38827\Soloquizz.png"></a>
                     </div>
                     <div class="col divClass1">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <button class="px-3 btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img class="imgClass2" src="user.png">
+                                        <img class="imgClass2" src="../C:\Users\pc\AppData\Local\Temp\Rar$DIa10516.32531\user.png">
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-info">
                                         <li>
@@ -44,7 +44,7 @@
             </nav>
         </header>
         <div class="bg-light">
-            <!-- <hr class="bg-primary" style="color: white;"> -->
+            <hr class="bg-primary" style="color: white;"> -->
             <nav class="navbar navbar-expand-lg navClass1">
                 <div class="container">
                     <div class="container-fluid row">
@@ -144,7 +144,7 @@
             </div>
         </div>
         <footer>
-        <!--Footer 2-->
+        <Footer 2
             <div class="divClass2">
               <div class="container">
                   <p class="text-white text-center"><span>Ministèrer de l'enseignement supérieur, de la Recherche et de l'innovation <span class="text-primary">(MESRI)</span></span><br/>
@@ -156,4 +156,4 @@
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
-</html>
+</html>  
