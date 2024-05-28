@@ -1,1 +1,2 @@
-header('location:ressource/PageHTML.php');
+<?php header('location:ressource/PageHTML.php');
+ ?> 

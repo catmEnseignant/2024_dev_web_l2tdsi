@@ -1,21 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-        <!-- <link rel="stylesheet" href="PageCSS.css"> -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="../public/Style2.css">
         <title>SOLOQUIZZ</title>
     </head>
     <body>
-        <header class="headerClasse pb-2">
+        <header class="pb-2 headerClass">
             <nav class="px-3 navbar navbar-expand-lg navbar-dark bg-dark fixed">
-                <div class="container row px-1" class="les">
+                <div class="container row px-1 containerClass">
                     <div class="col">
-                        <a class="navbar-brand" href="#"><img class="soloquizz" src="Soloquizz.png"></a>
+                        <a class="navbar-brand" href="#"><img class="image1" src="Soloquizz.png"></a>
                     </div>
-                    <div class="sall" >
+                    <div class="col sall">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -23,13 +23,13 @@
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
                                     <button class="px-3 btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img class="image" src="user.png">
+                                        <img class="image2" src="user.png">
                                     </button>
                                     <ul class="dropdown-menu dropdown-menu-info">
                                         <li>
                                             <a class="dropdown-item text-dark" href="#">
                                                 <span<ion-icon name="person"></ion-icon></span>
-                                                <strong>&nbsp;Alassane Laye Diop</strong>
+                                                <strong>&nbsp;Samba SALL</strong>
                                             </a>
                                         </li>
                                         <li>
@@ -43,71 +43,74 @@
                     </div>
                 </div>
             </nav>
-        </header> 
-        <div class="td" >
+        </header>
+        <div class="bg-light">
             <!-- <hr class="bg-primary" style="color: white;"> -->
-            <nav class="tp navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg navClass1">
                 <div class="container">
                     <div class="container-fluid row">
                         <div class="col-7">
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="">
-                                <ul style="text-align: center;" class="navbar-nav lienNav">
-                                    <li class="nav-item ">
-                                        <a  class=" tp1 nav-link" href="#">Tableau de bord</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a  class=" tp2 nav-link" href="#">Parametres</a>
-                                    </li>
-                                    <li class="nav-item dropdown">
-                                        <a  class="tp2 nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Certifications
-                                        </a>
-                                      <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item text-dark" href="#">Action</a></li>
-                                        <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
-                                      </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class=" tp2 nav-link" href="#">Parametres</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class=" tp2 nav-link" href="#">Classes</a>
-                                    </li>
-                                </ul>
-                            </div> 
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <div class="">
+                                    <ul class="navbar-nav lienNav ulClass1">
+                                        <li class="nav-item ">
+                                            <a class="nav-link ul_a_Class1" href="#">Tableau de bord</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link ul_a_Class1" href="#">Parametres</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link ul_a_Class1 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Certifications
+                                            </a>
+                                          <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item text-dark" href="#">Action</a></li>
+                                            <li><a class="dropdown-item text-dark" href="#">Another action</a></li>
+                                            <li><a class="dropdown-item text-dark" href="#">Something else here</a></li>
+                                          </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link ul_a_Class1" href="#">Parametres</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link ul_a_Class1" href="#">Classes</a>
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div class="samba">
-                <div  class=" sam row text-center shadow bg-light">
-                    <div class="sambasa col-3 shadow-lg ">Etudiants<br><strong class="text-dark">4</strong></div>
-                    <div class=" td1 text-center col-lg-3 shadow-lg rounded">Certifications<br><strong class="text-dark">2</strong></div>
-                    <div class=" td2 text-center col-lg-3 shadow-lg rounded">Classe<br><strong class="text-dark">5</strong></div>
+            <div>
+                <div class="row text-center shadow bg-light divClassB">
+                    <div class="col-3 shadow-lg divClass3">Etudiants<br><strong class="text-dark">4</strong></div>
+                    <div class="text-center col-lg-3 shadow-lg rounded divClass4">Certifications<br><strong class="text-dark">2</strong></div>
+                    <div class="text-center col-lg-3 shadow-lg rounded divClass5">Classe<br><strong class="text-dark">5</strong></div>
                 </div>
-                <div class=" td3 container bg-light" >
-                    <div class=" td4 container bg-light">
-                        <div class=" td5 bg-light" >
-                            <nav aria-label=" tp6 breadcrumb" >
-                                <ol class="td7 breadcrumb" >
-                                  <li class=" td8 breadcrumb-item"><a href="#">Accueil</a></li>
-                                  <li class=" td9 breadcrumb-item"><a href="#">Administrateurs</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Listes des administrateurs</li>
+                <div class="container bg-light divBreakClass1">
+                    <div class="container bg-light divBreakClass2">
+                        <div class="bg-white divBreakClass3">
+                            <nav aria-label="breadcrumb" class="divBreakClass4">
+                                <ol class="breadcrumb divBreakClass5">
+                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Accueil</a></li>
+                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Administrateurs</a></li>
+                                  <li class="breadcrumb-item active" aria-current="#">Listes des administrateurs</li>
                                 </ol>
-                              </nav>
+                            </nav>
+                            <div>
                             <div class="bg-white p-1">
                                 <div>
-                                    <div class=" td10 m-2 center row bg-light">
+                                    <div class="m-2 center row bg-light divAdmin">
                                         <div class="col-4"><strong>Listes des adminstrateurs</strong></div>
                                         <div class="col-4"><strong>Nombre d'administrateurs 4</strong></div>
                                     </div>
                                 </div>
     
-                                <form method="post" action="PageHTML.php" class="col-12">
+                                <form method="post" action="index.html" class="col-12">
                                     <div class="row mt-3 mt-md-0">
                                         <div class="col-6 mb-3">
                                             <input type="text" class="form-control" id="prenom" placeholder="Prénom">
@@ -132,7 +135,9 @@
                                             <input type="file" accept="image/*" class="form-control" id="nom" placeholder="Aucun fichier choisi">
                                         </div>
                                     </div>
-                                    <button type="submit" class="btn btn-primary w-100 text-center">Enregistrer</button>
+                                    <div>
+                                        <a href="PageHTML.php" class="btn btn-primary w-100 text-center"><span>Enregistrer</span></a>
+                                    </div>
                                 </form>
                             </div>
 
@@ -143,7 +148,7 @@
         </div>
         <footer>
         <!--Footer 2-->
-            <div class="TD">
+            <div class="divClass2">
               <div class="container">
                   <p class="text-white text-center"><span>Ministèrer de l'enseignement supérieur, de la Recherche et de l'innovation <span class="text-primary">(MESRI)</span></span><br/>
                   <span>Université Cheikh Anta Diop de DAKAR <span class="text-primary">(UCAD)</span></span><br/>
