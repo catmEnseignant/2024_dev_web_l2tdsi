@@ -51,7 +51,6 @@ body
 
 .ul_a_Class1
 {
-    font-weight: 500;
     color: rgb(199, 200, 200);
 }
 
@@ -62,7 +61,7 @@ body
 
 .divClass2
 {
-    background-color: rgb(64, 79, 104);
+    background-color: rgb(64, 79, 104); 
     padding: 2px;
 }
 
