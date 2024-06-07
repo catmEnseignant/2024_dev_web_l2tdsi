@@ -96,47 +96,30 @@
                             <nav aria-label="breadcrumb" class="divBreakClass4">
                                 <ol class="breadcrumb divBreakClass5">
                                   <li class="breadcrumb-item divBreakClass6"><a href="#">Accueil</a></li>
-                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Administrateurs</a></li>
-                                  <li class="breadcrumb-item active" aria-current="page">Listes des administrateurs</li>
+                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Etudiant</a></li>
+                                  <li class="breadcrumb-item active" aria-current="page">Listes des Etudiants</li>
                                 </ol>
                             </nav>
                             <div>
                                 <div class="center row bg-light divAdmin">
-                                    <div class="col-4"><strong>Listes des adminstrateurs</strong></div>
-                                    <div class="col-4"><strong>Nombre d'administrateurs 4</strong></div>
+                                    <div class="col-4"><strong> Listes des Etudiant</strong></div>
+                                    <div class="col-4"><strong>Nombre d'Etudiants</strong></div>
                                     <div class="col-4 text-end"><a href="PageHTMLFormulaire.php" class="btn btn-outline-primary me-3"><span class="p-2">Ajouter un administrateur</span></a></div>
                                 </div>
                             </div>
 
                             <table class="table">
-                                <thead>
+                            
                                   <tr>
-                                    <th scope="col">#</th>
+                                    <th scope="col">numero  carte</th>
                                     <th scope="col">Prénom</th>
                                     <th scope="col">Nom</th>
                                     <th scope="col">Réseau</th>
+                                    <input type="email" class="form-control" id="nom" placeholder="Email">
+
+                                        
                                   </tr>
-                                </thead>
-                                <tbody>
-                                  <tr class="table-secondary">
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                  </tr>
-                                  <tr>
-                                    <th scope="row">2</th>
-                                    <td>Jacob</td>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                  </tr>
-                                  <tr class="table-secondary">
-                                    <th scope="row">3</th>
-                                    <td>Larry</td>
-                                    <td>the Bird</td>
-                                    <td>@twitter</td>
-                                  </tr>
-                                </tbody>
+                                  
                             </table>
                             <nav aria-label="Page navigation example" class="navClass2">
                               <ul class="pagination">

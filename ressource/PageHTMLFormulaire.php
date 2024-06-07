@@ -97,16 +97,16 @@
                             <nav aria-label="breadcrumb" class="divBreakClass4">
                                 <ol class="breadcrumb divBreakClass5">
                                   <li class="breadcrumb-item divBreakClass6"><a href="#">Accueil</a></li>
-                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Administrateurs</a></li>
-                                  <li class="breadcrumb-item active" aria-current="#">Listes des administrateurs</li>
+                                  <li class="breadcrumb-item divBreakClass6"><a href="#">Etudiant</a></li>
+                                  <li class="breadcrumb-item active" aria-current="#">Formulaire Etudiant</li>
                                 </ol>
                             </nav>
                             <div>
                             <div class="bg-white p-1">
                                 <div>
                                     <div class="m-2 center row bg-light divAdmin">
-                                        <div class="col-4"><strong>Listes des adminstrateurs</strong></div>
-                                        <div class="col-4"><strong>Nombre d'administrateurs 4</strong></div>
+                                        <div class="col-4"><strong>Listes des Etudiants</strong></div>
+                                        <div class="col-4"><strong>Nombre d'Etudiants</strong></div>
                                     </div>
                                 </div>
     
@@ -136,7 +136,7 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <a href="PageHTML.php" class="btn btn-primary w-100 text-center"><span>Enregistrer</span></a>
+                                        <a href="index.php" class="btn btn-primary w-100 text-center"><span>Enregistrer</span></a>
                                     </div>
                                 </form>
                             </div>
