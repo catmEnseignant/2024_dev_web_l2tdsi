@@ -33,6 +33,30 @@ switch ($action) {
         $etudiant->create('etudiants', $data);
         index($etudiant);
         break;
+    case 'edit':
+        $numcard = $_GET['id'];
+        $condition = 'numcard = "' . $numcard . '"';
+        $etudiants = $etudiant->read('etudiants', '*', $condition);
+        $_SESSION['etudiant'] = $etudiants;
+        update();
+        break;
+    case 'update':
+        $data = [
+            'numcard' => $_POST['numcard'],
+            'prenom' => $_POST['prenom'],
+            'nom' => $_POST['nom'],
+            'adresse' => $_POST['adresse']
+        ];
+        $condition = $_POST['numcard'];
+        $etudiant->update('etudiants', $data, 'numcard = "' . $condition . '"');
+        index($etudiant);
+        break;
+    case 'delete':
+        $numcard = $_GET['numcard'];
+        $condition = 'numcard = "' . $numcard . '"';
+        $etudiant->delete('etudiants', $condition);
+        index($etudiant);
+        break;
     case 'index':
     default:
         index($etudiant);
@@ -50,5 +74,11 @@ function index($etudiant)
 function create()
 {
     header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/etudiants/create.php');
+    exit;
+}
+
+function update()
+{
+    header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/etudiants/create.php?action=edit');
     exit;
 }

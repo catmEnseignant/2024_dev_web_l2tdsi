@@ -1,5 +1,9 @@
 <?php
-require '../layouts/master.php'; ?>
+session_start();
+require '../layouts/master.php'; 
+$enseignant = $_SESSION['enseignants'] ?? null;
+$action = $_GET['action'] ?? '';
+?>
 
 <div class="container bg-light divBreakClass1">
     <div class="container bg-light divBreakClass2">
@@ -17,30 +21,30 @@ require '../layouts/master.php'; ?>
                 </div>
             </div>
             <div class="center row container">
-                <form action="EnseignantController.php?action=store" method="post">
+                <form action="EnseignantController.php?action=<?php echo $action == 'edit' ?  'update' : 'store'; ?>" method="post">
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1 mb-2">Matricule</label>
-                            <input type="text" class="form-control" name="matricule" id="exampleInputEmail1" placeholder="20220982HZT">
+                            <input type="text" class="form-control" name="matricule" id="exampleInputEmail1" placeholder="20220982HZT" <?php echo $action == 'edit' ? 'value="' . $enseignant[0]['matricule'] . '"' : ''; ?>>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1 mb-2">Prénom</label>
-                            <input type="text" name="prenom" class="form-control" id="exampleInputEmail1" placeholder="Moussa">
+                            <input type="text" name="prenom" class="form-control" id="exampleInputEmail1" placeholder="Moussa" <?php echo $action == 'edit' ? 'value="' . $enseignant[0]['prenom'] . '"' : ''; ?>>
                         </div>
                     </div>
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1 mb-2">Nom</label>
-                            <input type="text" name="nom" class="form-control" id="exampleInputEmail1" placeholder="Diop">
+                            <input type="text" name="nom" class="form-control" id="exampleInputEmail1" placeholder="Diop" <?php echo $action == 'edit' ? 'value="' . $enseignant[0]['nom'] . '"' : ''; ?>>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="exampleInputEmail1 mb-2">Adresse</label>
-                            <input type="text" class="form-control" name="adresse" placeholder="Grand-Yoff">
+                            <input type="text" class="form-control" name="adresse" placeholder="Grand-Yoff" <?php echo $action == 'edit' ? 'value="' . $enseignant[0]['adresse'] . '"' : ''; ?>>
                         </div>
                     </div>
                     <div class="row mt-2">
                         <div class="col-6">
-                            <button type="submit" class="btn btn-primary">Enregistrer</button>
+                            <button type="submit" class="btn btn-primary"><?php echo $action == 'edit' ? 'Modifier' : 'Enregistrer'; ?></button>
                         </div>
                     </div>
                 </form>

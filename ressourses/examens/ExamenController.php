@@ -34,6 +34,31 @@ switch ($action) {
         $examen->create('examens', $data);
         index($examen);
         break;
+    case 'edit':
+        $idExam = $_GET['id'];
+        $condition = 'idExam = "' . $idExam . '"';
+        $examens = $examen->read('examens', '*', $condition);
+        $_SESSION['examen'] = $examens;
+        update();
+        break;
+    case 'update':
+        $data = [
+            'idExam' => $_POST['identifiant'],
+            'nom' => $_POST['nom'],
+            'coef' => $_POST['coef'],
+            'date' => $_POST['date'],
+            'duree' => $_POST['duree']
+        ];
+        $condition = $_POST['identifiant'];
+        $examen->update('examens', $data, 'idExam = "' . $condition . '"');
+        index($examen);
+        break;
+    case 'delete':
+        $idExam = $_GET['idExam'];
+        $condition = 'idExam = "' . $idExam . '"';
+        $examen->delete('examens', $condition);
+        index($examen);
+        break;
     case 'index':
     default:
         index($examen);
@@ -51,5 +76,12 @@ function index($examen)
 function create()
 {
     header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/examens/create.php');
+    exit;
+}
+
+
+function update()
+{
+    header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/examens/create.php?action=edit');
     exit;
 }

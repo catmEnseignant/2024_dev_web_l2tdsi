@@ -29,6 +29,30 @@ switch ($action) {
         $enseignant->create('enseignants', $data);
         index($enseignant);
         break;
+    case 'edit':
+        $matricule = $_GET['id'];
+        $condition = 'matricule = "' . $matricule . '"';
+        $enseignants = $enseignant->read('enseignants', '*', $condition);
+        $_SESSION['enseignants'] = $enseignants;
+        update();
+        break;
+    case 'update':
+        $data = [
+            'matricule' => $_POST['matricule'],
+            'prenom' => $_POST['prenom'],
+            'nom' => $_POST['nom'],
+            'adresse' => $_POST['adresse']
+        ];
+        $condition = $_POST['matricule'];
+        $enseignant->update('enseignants', $data, 'matricule = "' . $condition . '"');
+        index($enseignant);
+        break;
+    case 'delete':
+        $matricule = $_GET['matricule'];
+        $condition = 'matricule = "' . $matricule . '"';
+        $enseignant->delete('enseignants', $condition);
+        index($enseignant);
+        break;
     case 'index':
     default:
         index($enseignant);
@@ -47,5 +71,12 @@ function index($enseignant)
 function create()
 {
     header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/enseignants/create.php');
+    exit;
+}
+
+
+function update()
+{
+    header('Location: /dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/enseignants/create.php?action=edit');
     exit;
 }

@@ -141,3 +141,8 @@ body
     justify-content: space-around; 
     align-items: center; height: 100px;
 }
+
+.bouton{
+    text-decoration: none;
+    border: none;
+}
