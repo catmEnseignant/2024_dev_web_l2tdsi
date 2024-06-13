@@ -1,3 +1,2 @@
 <?php
-    header("location: ressources/PageHTML.php");
-?>
+    header('location: ressources/etudiants/index.php');
