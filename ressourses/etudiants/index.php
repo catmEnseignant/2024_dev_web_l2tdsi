@@ -18,7 +18,19 @@ require '../layouts/master.php';?>
                         <div class="col-4 text-end"><a href="EtudiantController.php?action=create" class="btn btn-outline-primary me-3"><span class="p-2">Ajouter un étudiant</span></a></div>
                     </div>
                 </div>
+                <?php
+							include_once 'EtudiantController.php';
+                            $con = connectionDB();
+                            $mysqlTable = "etudiants";
+                            $query = "SELECT * FROM $mysqlTable";
+                            $statement = $con->prepare( $query ); // préparation
+                            $exec = $statement->execute(); // exécution
 
+                            // récupération du résultat
+                            $resultats = $statement->fetchAll ( PDO::FETCH_ASSOC );
+                            print_r($resultats);
+
+                ?>
                 <table class="table">
                     <thead>
                     <tr>
@@ -29,12 +41,21 @@ require '../layouts/master.php';?>
                     </tr>
                     </thead>
                     <tbody>
-                        <tr class="table-secondary">
-                            <th scope="row">0929NDOI</th>
-                            <td>Moustapha</td>
-                            <td>Diaw</td>
-                            <td>LatMingué</td>
-                        </tr>
+                        <?php
+                            while($row = $query->fetch_assoc()){
+                                echo
+                                    "<tr>
+                                        <td>".$row['ID']."</td>
+                                        <td>".$row['nom']."</td>
+                                        <td>".$row['numero']."</td>
+                                        <td>".$row['address']."</td>
+                                        <td>
+                                            <a href='#edit_".$row['ID']."' class='btn btn-success btn-sm' data-toggle='modal'><span class='glyphicon glyphicon-edit'></span> Modifier</a>
+                                            <a href='#delete_".$row['ID']."' class='btn btn-danger btn-sm' data-toggle='modal'><span class='glyphicon glyphicon-trash'></span> Supprimer</a>
+                                        </td>
+                                    </tr>";
+                            }
+                        ?>
                     </tbody>
                 </table>
                 <nav aria-label="Page navigation example" class="navClass2">

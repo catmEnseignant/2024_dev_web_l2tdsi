@@ -20,8 +20,8 @@ require '../layouts/master.php';?>
                     <form action="EtudiantController.php?action=store" method="post">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="exampleInputEmail1 mb-2">Matricule</label>
-                                <input type="text" class="form-control" name="matricule" id="exampleInputEmail1" placeholder="20220982HZT">
+                                <label for="exampleInputEmail1 mb-2">Numéro carte</label>
+                                <input type="text" class="form-control" name="numero_carte" id="exampleInputEmail1" placeholder="20220982HZT">
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="exampleInputEmail1 mb-2">Prénom</label>
