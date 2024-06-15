@@ -32,4 +32,8 @@ function nomFonction(){
     console.log(admin.isSenior());
  }
 
+<<<<<<< HEAD
  nomFonction();
+=======
+ nomFonction();
+>>>>>>> catm_dev
