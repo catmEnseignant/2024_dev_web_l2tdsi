@@ -1,5 +1,4 @@
 
-
 body
 {
     overflow-x: hidden;
@@ -17,19 +16,19 @@ body
     margin: auto;
 }
 
-.image1
+.imgClass1
 {
     width:30%; 
     height: 5%; 
     margin: 2px;
 }
 
-.sall
+.divClass1
 { 
     margin-left: 100px;
 }
 
-.image2
+.imgClass2
 {
     width: 40px; 
     height: 40px; 
