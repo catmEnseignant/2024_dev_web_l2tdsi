@@ -6,6 +6,29 @@ Initiation à Git
 Programme Dev Web L2TDSI 
 1- Initiation à Git
 2- Initiation PHP
+
+
+# Mes parts de modification.
+20220B54X Mouhamad Al Amine BA
+As Salamou Aleykoum,
+
+J'ai fait un push sur ma branche git concernant le CRUD. J'ai apporté des modifications aux différents fichiers pour que la fonction d'ajout opère correctement. J'ai également allégé le code.
+
+Dans le dossier public, il y a les fichiers CSS, JS et les images.
+
+Dans le dossier layouts, il y a les fichiers footer, header, navtop, et le master (qui regroupe le header et le navtop).
+
+Dans le dossier etudiants, il y a :
+- le fichier create avec le formulaire pour l'ajout,
+- le fichier controller qui permet les redirections vers les autres fichiers, la connexion et l'insertion dans la base de données,
+- le fichier index qui répertorie les enregistrements, avec les boutons pour ajouter, modifier et supprimer.
+
+Il suffit maintenant de créer dans etudiants un fichier delete et un fichier edit. Les redirections seront gérées dans le fichier controller.
+
+NB : Il suffit aussi de créer une base de données en amont nommée db_dev_web_l2tdsi avec une table etudiants ayant les champs suivants : numero_carte, prenom, nom, adresse.
+
+Je pense que c'était cela, sauf erreur de ma part.
+
 Amadou sagaleyni Aidara 20200A81M CI
 
 # Mon projet html/css

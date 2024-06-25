@@ -1,17 +1,14 @@
 <?php
 
-if ($_GET['action'] == 'index'){
-    index();
+if (isset($_GET['action'])) {
+    if ($_GET['action'] == 'index') {
+        index();
+    } elseif ($_GET['action'] == 'create') {
+        create();
+    } elseif ($_GET['action'] == 'store') {
+        store();
+    }
 }
-
-if ($_GET['action'] == 'create'){
-    create();
-}
-
-if ($_GET['action'] == 'store'){
-    store();
-}
-
 
 
 function index()
@@ -48,29 +45,32 @@ function store()
     try {
         $exec = $statement->execute();
         echo "Ajout réussi";
-    }catch (ErrorException $ex){
+        header('location: index.php');
+    } catch (ErrorException $ex) {
         print_r($ex);
     }
 }
 
 
-function connectionDB(){
+function connectionDB()
+{
     //Infos du serveur DB
-    $mysqlHost="localhost";
-    $dbname="db_dev_web_l2tdsi";
-    $charset="utf8";
+    $mysqlHost = "localhost";
+    $dbname = "db_dev_web_l2tdsi";
+    $charset = "utf8";
     $dsn = "mysql:host=$mysqlHost;" . "dbname=$dbname;" . "charset=$charset";
 
-// les options
-    $opt = array (
+    // les options
+    $opt = array(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        PDO::ATTR_EMULATE_PREPARES => false );
+        PDO::ATTR_EMULATE_PREPARES => false
+    );
 
 
-//Instanciation de l'objet PDO
+    //Instanciation de l'objet PDO
     $mysqlLogin = "root";
-    $mysqlPassword = "";
+    $mysqlPassword = "9462";
     $PDO = new PDO($dsn, $mysqlLogin, $mysqlPassword, $opt);
     return $PDO;
 }
