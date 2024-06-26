@@ -13,8 +13,6 @@ if ($_GET['action'] == 'store'){
     store();
 }
 
-
-
 function index()
 {
     header('location:index.php');
