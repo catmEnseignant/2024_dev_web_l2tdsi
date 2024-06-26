@@ -3,8 +3,8 @@
     $HOSTNAME = "localhost";
     // $HOSTNAME = "mysql:host=localhost; dbname=examen";
     $USERNAME = "root";
-    $PASSWORD = "layediop2005@10";
-    $DATABASE = "examen";
+    $PASSWORD = "";
+    $DATABASE = "examens";
 
     $connect = mysqli_connect($HOSTNAME, $USERNAME, $PASSWORD, $DATABASE);
 
