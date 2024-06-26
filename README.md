@@ -1,4 +1,5 @@
 # 2024_dev_web_l2tdsi
+<<<<<<< HEAD
 # overflow-x: hidden; : debordement horital
 
 # .headerClass : fixe la barre de navigation au top avec une largeur de 100%;
@@ -41,4 +42,5 @@
 
 #  .headerClass : Positionnement fixe : L’élément sera positionné par rapport à la fenêtre du navigateur, plutôt que par rapport au flux normal du document, Pleine largeur : L’élément occupera toute la largeur de son conteneur parent; 
  
+
 
