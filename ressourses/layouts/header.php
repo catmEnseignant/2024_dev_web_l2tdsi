@@ -14,7 +14,7 @@
                                     <a class="nav-link ul_a_Class1" href="/">Tableau de bord</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link ul_a_Class1" href="../etudiants/EtudiantController.php?action=index">Étudiants</a>
+                                    <a class="nav-link ul_a_Class1" href="/dossier_2024/L2TDSI/2024_dev_web_l2tdsi/ressourses/etudiants/EtudiantController.php?action=index">Étudiants</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link ul_a_Class1" href="#">Examen</a>
