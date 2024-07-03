@@ -1,4 +1,5 @@
 # 2024_dev_web_l2tdsi
+<<<<<<< HEAD
 
 On peux dire que l'effet de mes classe css se sent au niveau du style de la page avec les couleur les mise en forme et consort le css à permis à la page de différé des pages des année 60 qui n'était qu'un mélange de noir sur blanc.
 
@@ -76,3 +77,5 @@ Cette classe avec "margin-left: 635px;" à donner à la partir sur le quelle st 
 Cette classe avec "background-color: rgb(64, 79, 104)" a donné une couleur de fond indigo à la pied de page et avec "padding: 2px" une marge de 2px pour son contenut .
 
 Ainsi on peut dire que le css a joué sur la beauté le style et la structure de la page qu'il rend plus captivant et agreable à voir.
+=======
+>>>>>>> origin
